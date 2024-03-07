@@ -1,4 +1,4 @@
-# Projekt - portfolio
+# Projekt - cwiczenie responsive web design
 [Kliknij tutaj aby rozwiązać zadanie](https://githubbox.com/Publishing-School/css-cwiczenie-rwd)
 
 Zadanie polega na dodaniu responywności dla karty produktu.
