@@ -1,0 +1,124 @@
+:root {
+  --primary-color: #073b4c;
+  --secondary-color: #ffd166;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.4;
+  color: var(--primary-color);
+}
+
+section {
+  border: 2px solid var(--primary-color);
+  width: 700px;
+  margin: 32px auto;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+
+section > header {
+  background-color: var(--secondary-color);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+article {
+  margin: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 0;
+}
+
+.price {
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.shipping-chip > span {
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: var(--secondary-color);
+  padding: 2px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.shipping-chip {
+  text-align: center;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.details-list {
+  list-style: square;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+.add-cart {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.add-cart:hover {
+  background-color: var(--secondary-color);
+}
+
+.image-container {
+  text-align: center;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+.product-description-summary {
+  display: none;
+}
+
+.product-description-summary > details {
+  margin: 16px 0;
+}
+
+.product-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
